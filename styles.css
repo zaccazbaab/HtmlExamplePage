@@ -8,7 +8,7 @@
 }
 
 
-html {font-size: 120%;} /* 16px */
+html {font-size: 120%;}
 ul{
     list-style: none;
 
@@ -28,17 +28,17 @@ li::before{
     display: inline-block   ;
 }
 
-h1 {font-size: 4.210rem; /* 67.36px */}
+h1 {font-size: 4.210rem;}
 
 .primary_section-box {
 
-    border-radius: 5px; /* 邊框圓角 */
-    padding: 15px; /* 內邊距 */
-    margin: 20px 0; /* 外邊距 */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
     margin: 20px auto;
     width: 90%;
     max-width: 600px;
-    background-color: var(--primary); /* 背景顏色 */
+    background-color: var(--primary);
     text-align: left;
 }
 
