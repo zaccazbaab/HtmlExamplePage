@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Scada:700|Scada:400');
+:root{
+    --text: #eaefed;
+    --background: #0e1211;
+    --primary: #adbeb9;
+    --secondary: #5b495c;
+    --accent: #92767b;
+}
+
+
+html {font-size: 120%;} /* 16px */
+ul{
+    list-style: none;
+
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+li{
+
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+li::before{
+    content: '○';
+    margin-right: 10px;
+    display: inline-block   ;
+}
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+.primary_section-box {
+
+    border-radius: 5px; /* 邊框圓角 */
+    padding: 15px; /* 內邊距 */
+    margin: 20px 0; /* 外邊距 */
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: var(--primary); /* 背景顏色 */
+    text-align: left;
+}
+
+.secondary_section-box{
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: var(--secondary);
+    text-align: left;
+}
+
+.third_section-box{
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: var(--accent);
+    text-align: left;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+body {
+    text-align: center;
+    font-family: 'Scada';
+    font-weight: 400;
+    background-color: var(--background);
+  }
+  
+  h1, h2, h3, h4, h5 ,form,header,body{
+    font-family: 'Scada';
+    font-weight: 700;
+  }
+img{
+    max-width: 150px;
+}
