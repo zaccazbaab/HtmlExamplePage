@@ -3,7 +3,17 @@
     <title>HTML 程式碼示範</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#changeColor').on("click",function(){
+            $(".primary_section-box").css("background-color","#a4c0c9");
+            $(".secondary_section-box").css("background-color","#55416e");
+            $(".third_section-box").css("background-color","#a06ca8");
+            $("#example_img").attr('src',"./1729401601412.gif");
+        });
+    });
+</script>
 <body>
     <header style="color: #eaefed;">
         <h1>HTML基本文法</h1>
@@ -15,7 +25,7 @@
                     <li>&lt;h1&gt; 至 &lt;h6&gt;：標題</li>
                     <li>&lt;p&gt;：段落</li>
                     <li>&lt;a&gt;：超連結示範 <a href="https://www.example.com" target="_blank">點這裡</a></li>
-                    <li>&lt;img&gt;：圖片示範 <br><img src="./e3406aeafd9e4e168f1a0d44b7766761.webp" alt="示範圖片" /></li>
+                    <li>&lt;img&gt;：圖片示範 <br><img src="./e3406aeafd9e4e168f1a0d44b7766761.webp" alt="示範圖片" id="example_img" /></li>
                     <li>&lt;ul&gt; / &lt;ol&gt;：無序/有序列表</li>
                 </ul>
         <h2 class="third_section-box">表單</h2>
@@ -26,4 +36,11 @@
         電子郵件：<input type="email" name="email"><br>
         <input type="submit" value="提交">
     </form>
+    <p class="message primary_section-box">
+        this is message
+    </p>
+    <button id="changeColor">
+        改變顏色
+    </button>
+    
 </body>

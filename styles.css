@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Scada:700|Scada:400');
+@import url('https://fonts.googleapis.com/css?family=Scada:700|Scada:400');/*導入字體*/
 :root{
     --text: #eaefed;
     --background: #0e1211;
@@ -7,9 +7,9 @@
     --accent: #92767b;
 }
 
-h1 {font-size: 4.210rem;}
+h1 {font-size: 4.210rem;}/*h1字體大小*/
 
-html {font-size: 120%;}
+html {font-size: 120%;}/*主要字體大小*/
 
 ul{
     text-align: left;
@@ -22,13 +22,13 @@ li{
 
 .primary_section-box {
 
-    border-radius: 5px;
-    padding: 15px;
-    margin: 20px auto;
+    border-radius: 5px;/*圓邊*/
+    padding: 15px;/*內邊界*/
+    margin: 20px auto;/*外邊界*/
     width: 90%;
-    max-width: 600px;
+    max-width: 600px;/*最大寬度*/
     background-color: var(--primary);
-    text-align: left;
+    text-align: left;/*靠左對齊*/
 }
 
 .secondary_section-box{
@@ -52,14 +52,14 @@ li{
 }
 
 header {
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 0;/*內邊界*/
+    text-align: center;/*置中*/
 }
 
 body {
-    text-align: center;
-    font-family: 'Scada';
-    font-weight: 400;
+    text-align: center;/*置中*/
+    font-family: 'Scada';/*字體*/
+    font-weight: 400;/*字體粗細*/
     background-color: var(--background);
   }
   
@@ -68,5 +68,5 @@ body {
     font-weight: 700;
   }
 img{
-    max-width: 150px;
+    max-width: 150px;/*最大寬度*/
 }
